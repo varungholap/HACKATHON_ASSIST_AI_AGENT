@@ -52,21 +52,6 @@ After a series of questions, HackMate generates a final evaluation based on area
 - Presentation Clarity
 - Overall Readiness
 
-## Judge-Aware Question Generation
-
-In future versions, HackMate can adapt its Judge Simulator based on the actual judges attending a hackathon.
-
-Instead of asking generic questions, HackMate can generate practice questions using:
-
-- Judge expertise and background
-- Sponsor judging priorities
-- MLH/event-specific scoring rubrics
-- Project category and technical stack
-
-For example, an AI researcher may ask about model reliability and evaluation, while a sponsor judge may focus on how meaningfully the project uses their API.
-
-This makes pitch practice more realistic and helps teams prepare for the types of questions they are most likely to face during judging.
-
 ---
 
 # 📋 Feature 2: AI Submission Checklist
@@ -134,14 +119,20 @@ Help teams decide when to cut features, pivot ideas, and focus on the final demo
 
 ---
 
-### 🎯 Advanced Judge Intelligence
-Future versions can include:
-- Different judge personas
-- Sponsor-specific judging criteria
-- MLH-specific knowledge bases
-- Historical winning project analysis
+## Judge-Aware Question Generation
 
----
+In future versions, HackMate can adapt its Judge Simulator based on the actual judges attending a hackathon.
+
+Instead of asking generic questions, HackMate can generate practice questions using:
+
+- Judge expertise and background
+- Sponsor judging priorities
+- MLH/event-specific scoring rubrics
+- Project category and technical stack
+
+For example, an AI researcher may ask about model reliability and evaluation, while a sponsor judge may focus on how meaningfully the project uses their API.
+
+This makes pitch practice more realistic and helps teams prepare for the types of questions they are most likely to face during judging
 
 # 🏗️ Technical Architecture
 
